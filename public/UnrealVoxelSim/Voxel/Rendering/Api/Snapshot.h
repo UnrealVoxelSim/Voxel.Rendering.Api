@@ -7,12 +7,10 @@
 
 namespace UnrealVoxelSim::Voxel::Rendering::Api
 {
-
-struct Snapshot final
-{
-    UnrealVoxelSim::Voxel::Api::Region Target{};
-    UnrealVoxelSim::Voxel::Api::Region Samples{};
-    std::vector<SurfaceId> Cells;
-};
-
+	struct Snapshot final
+	{
+		UnrealVoxelSim::Voxel::Api::Region Target{};
+		UnrealVoxelSim::Voxel::Api::Region Samples{};
+		std::vector<SurfaceId> Cells;
+	};
 } // namespace UnrealVoxelSim::Voxel::Rendering::Api

@@ -8,12 +8,10 @@
 
 namespace UnrealVoxelSim::Voxel::Rendering::Api
 {
-
-struct Mesh final
-{
-    UnrealVoxelSim::Voxel::Api::Region Bounds{};
-    std::vector<Vertex> Vertices;
-    std::vector<std::uint32_t> Indices;
-};
-
+	struct Mesh final
+	{
+		UnrealVoxelSim::Voxel::Api::Region Bounds{};
+		std::vector<Vertex> Vertices;
+		std::vector<std::uint32_t> Indices;
+	};
 } // namespace UnrealVoxelSim::Voxel::Rendering::Api
