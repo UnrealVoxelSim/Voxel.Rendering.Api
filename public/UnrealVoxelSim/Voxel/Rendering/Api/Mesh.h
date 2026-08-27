@@ -14,4 +14,4 @@ namespace UnrealVoxelSim::Voxel::Rendering::Api
 		std::vector<Vertex> Vertices;
 		std::vector<std::uint32_t> Indices;
 	};
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}

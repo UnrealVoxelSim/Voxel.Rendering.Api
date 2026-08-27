@@ -33,4 +33,4 @@ namespace UnrealVoxelSim::Voxel::Rendering::Api
 
 	static_assert(sizeof(SurfaceId) == sizeof(std::uint32_t));
 	static_assert(std::is_trivially_copyable_v<SurfaceId>);
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}

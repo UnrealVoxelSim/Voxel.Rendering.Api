@@ -15,4 +15,4 @@ TEST(SurfaceIdTest, ZeroIsReservedForEmptySpace)
     EXPECT_EQ(SurfaceId{42}.Value(), 42U);
 }
 
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}

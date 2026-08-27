@@ -17,4 +17,4 @@ TEST(MeshTest, KeepsGeometryTileLocal)
     EXPECT_EQ(mesh.Vertices.front().Surface, SurfaceId{3});
 }
 
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}

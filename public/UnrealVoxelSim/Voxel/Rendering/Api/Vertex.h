@@ -22,4 +22,4 @@ namespace UnrealVoxelSim::Voxel::Rendering::Api
 	};
 
 	static_assert(std::is_trivially_copyable_v<Vertex>);
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}

@@ -13,4 +13,4 @@ namespace UnrealVoxelSim::Voxel::Rendering::Api
 		UnrealVoxelSim::Voxel::Api::Region Samples{};
 		std::vector<SurfaceId> Cells;
 	};
-} // namespace UnrealVoxelSim::Voxel::Rendering::Api
+}
