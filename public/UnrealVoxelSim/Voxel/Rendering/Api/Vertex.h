@@ -17,6 +17,9 @@ namespace UnrealVoxelSim::Voxel::Rendering::Api
 		std::int8_t NormalY{};
 		std::int8_t NormalZ{};
 		SurfaceId Surface{};
+		// Cell-space coordinates: one UV unit corresponds to one voxel texture repeat.
+		float U{};
+		float V{};
 
 		auto operator<=>(const Vertex&) const = default;
 	};
